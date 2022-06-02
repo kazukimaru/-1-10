@@ -74,3 +74,16 @@ footer {
   background-color:#AAAAAA;
 }
 
+@media screen and (max-width: 768px) {
+  main {
+    display: flex;
+    flex-flow: column;
+    width: 90%;
+  }
+
+  .main-box {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
